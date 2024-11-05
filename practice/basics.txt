@@ -112,9 +112,7 @@ let obj1 = Object.create(null)
 let obj2 = {
     location : "Mythos"
 }
-let obj3 = Object.assign(user1, obj2)
-console.log(obj3.fname)
-console.log(obj3.location)
+let obj3 = Object.assign(obj1, obj2)
 
 //Q10. Create an object literal and export it to another file and import and show that there, by logging the value returned
 module.exports = {
