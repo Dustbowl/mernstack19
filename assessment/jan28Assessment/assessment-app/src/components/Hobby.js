@@ -1,21 +1,7 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 export default function Hobby() {
     const [user, setUser] = useState({_id:""})
     const [hobbies, setHobbies] = useState([]);
-
-    useEffect(() => {
-        fetchData();
-      }, []);
-    
-      const fetchData = async () => {
-        try {
-          const response = await fetch(`http://localhost:3001/hobby/api/getHobbies/${user? user._id: ""}`);
-          const result = await response.json();
-          setHobbies(result);
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        }
-      };
 
     let handleLogin = (event) => {
         event.preventDefault();
