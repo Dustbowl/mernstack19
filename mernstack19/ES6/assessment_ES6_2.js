@@ -1,3 +1,6 @@
+// 4th November - 2024 : ES6, eventloop and some spa definitions
+// All questions are mandatory - 14 out of 15 needs to be done, 1st question is equal to two question so can't be left
+
 // 1. How to preserve the immutability on my heroes list? Solve below problems using the same
 // a. Get heroes who are not evils
 // b. Print Unique family names
@@ -16,7 +19,8 @@
 //   { name: 'Saruman',        family: 'Tolkien',   isEvil: true  }
 // ]
 
-//2. Use the spread and rest operator to create a function which can multiply numbers from 1...n (n is the number of choice)
+//2. Use the spread and rest operator to create a function which can multiply numbers from 1...n (n is the number of choice), 
+//   using apply keyword we need to implement this one
 
 //3. Print the last name through destructuring and add a contact number:9119119110 as well
 // const person = {

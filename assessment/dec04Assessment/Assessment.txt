@@ -1,0 +1,25 @@
+//React Assessment 4th Dec-2024
+
+//1. create a webpack setup, index html and one css file to show css in next questions
+        app created in 'assessment-app'
+//2. how react renders dom in conservative manner - explain
+        browser uses the dom to figure out what to display. 
+        Updating and reloading this is expensive so react caches dom changes in a 'virtual dom' using a 'render' method
+        Then reload the actual dom with the virtual dom, reflecting all changes all at once.
+//3. create a class component named - Success and show some quotes (messages) on success in it
+        Class Component "Success.js"
+//4. create a functional component SuccessChild, make it child of Success and pass Name and Address to it from Success
+        Functional Component "SuccessChild.js"
+//5. create SuccessStory as another component, pass this as props in SuccessChild from Success component
+        Functional Component "SuccessStory.js"
+//6. create UserSignIn component using uncontrolled way, should be class component
+        Class Component "UserSignIn.js"
+//7. explain how virtual dom works 
+        Virtual DOM is a representation of a DOM tree in the memory that is used to sync with the actual DOM. 
+        Usually this is more efficient and lightweight
+//8. pass a random value from SuccessStory component back to Success
+        callBackMsg in Success.js and sendDataBack in SuccessStory.js
+//9. Create a class component and show all the life cycle hooks/methods
+        Lifecycle.js
+//10. Make a state change, the state should be duplicate and then stop it to call render method to improve efficiency.
+        click() in Success.js
